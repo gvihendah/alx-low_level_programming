@@ -4,7 +4,7 @@
  * print_times_table - prints time table of n
  *
  * @n: takes number input
- */
+*/
 
 void print_times_table(int n)
 {
@@ -22,7 +22,7 @@ void print_times_table(int n)
 
 				prod = num * mult;
 
-				if prod <= 9)
+				if (prod <= 9)
 					_putchar(' ');
 				if (prod <= 99)
 					_putchar(' ');
